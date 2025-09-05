@@ -9,3 +9,7 @@ results.push(sum(2, 3));
 function isEven(n) { return n % 2 === 0; }
 results.push(isEven(4));
 
+// 3. Fatorial
+function factorial(n) { return n <= 1 ? 1 : n * factorial(n - 1); }
+results.push(factorial(5));
+
