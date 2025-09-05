@@ -5,3 +5,7 @@ const results = [];
 function sum(a, b) { return a + b; }
 results.push(sum(2, 3));
 
+// 2. Verifica se número é par
+function isEven(n) { return n % 2 === 0; }
+results.push(isEven(4));
+
